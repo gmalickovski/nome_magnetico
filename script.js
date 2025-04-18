@@ -16,11 +16,6 @@ import {
 const chat = document.getElementById("chat");
 const profilePicUrl = "Imagens/img perder a cabeça amarelo (2).png";
 
-document.addEventListener('DOMContentLoaded', () => {
-    const chat = document.getElementById('chat');
-    chat.innerHTML = '<p>Chat iniciado...</p>';
-});
-
 function scrollToBottom() {
   setTimeout(() => {
     chat.scrollTop = chat.scrollHeight;

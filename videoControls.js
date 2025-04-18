@@ -190,9 +190,3 @@ export function configureSecondVideoElement(videoElement) {
     muteButton.disabled = true; // Desativar botão de mute/unmute
   });
 }
-
-export const initVideoControls = () => {
-    console.log('Video controls initialized');
-};
-
-initVideoControls();

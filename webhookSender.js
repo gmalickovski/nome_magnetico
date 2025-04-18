@@ -29,7 +29,3 @@ export function enviarParaWebhook(
       console.error("Erro ao enviar ao N8N:", error);
     });
 }
-
-export const sendWebhook = async (data) => {
-  console.log('Webhook data:', data);
-};
